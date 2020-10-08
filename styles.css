@@ -1,0 +1,55 @@
+html {
+    background-color: white;
+    color: #2f2f2f;
+    font-family: 'Lora', 'Black Ops One', cursive, 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+
+/* Memorey Game Title */
+h1 {
+    text-align: center;
+}
+
+/* Score Board */
+.score-board {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.title {
+    color: #FF5049;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+/* For each Square */
+.square {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+/* For the container of these Square */
+.grid {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+    margin: 0 auto;
+    
+}
+
+/*Styling the mole*/
+.mole {
+    background-image: url(mole.jpg);
+    background-size: cover;
+}
